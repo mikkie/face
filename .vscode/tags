@@ -1,0 +1,75 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Activation	face_train_use_keras.py	/^from keras.layers import Dense, Dropout, Activation, Flatten$/;"	kind:namespace	line:8
+CatchPICFromVideo	catch_usb_img.py	/^def CatchPICFromVideo(window_name, camera_idx, catch_pic_num, path_name):$/;"	kind:function	line:8
+CatchUsbVideo	catch_usb_face.py	/^def CatchUsbVideo(window_name, camera_idx):$/;"	kind:function	line:7
+CatchUsbVideo	catch_usb_video.py	/^def CatchUsbVideo(window_name, camera_idx):$/;"	kind:function	line:7
+Convolution2D	face_train_use_keras.py	/^from keras.layers import Convolution2D, MaxPooling2D$/;"	kind:namespace	line:9
+Dataset	face_train_use_keras.py	/^class Dataset:$/;"	kind:class	line:17
+Dense	face_train_use_keras.py	/^from keras.layers import Dense, Dropout, Activation, Flatten$/;"	kind:namespace	line:8
+Dropout	face_train_use_keras.py	/^from keras.layers import Dense, Dropout, Activation, Flatten$/;"	kind:namespace	line:8
+Flatten	face_train_use_keras.py	/^from keras.layers import Dense, Dropout, Activation, Flatten$/;"	kind:namespace	line:8
+IMAGE_SIZE	face_train_use_keras.py	/^from load_face_dataset import load_dataset, resize_image, IMAGE_SIZE$/;"	kind:namespace	line:15
+IMAGE_SIZE	load_face_dataset.py	/^IMAGE_SIZE = 64$/;"	kind:variable	line:8
+Image	catch_usb_face.py	/^from PIL import Image$/;"	kind:namespace	line:5
+Image	catch_usb_img.py	/^from PIL import Image$/;"	kind:namespace	line:6
+Image	catch_usb_video.py	/^from PIL import Image$/;"	kind:namespace	line:5
+ImageDataGenerator	face_train_use_keras.py	/^from keras.preprocessing.image import ImageDataGenerator$/;"	kind:namespace	line:6
+K	face_train_use_keras.py	/^from keras import backend as K$/;"	kind:namespace	line:13
+MaxPooling2D	face_train_use_keras.py	/^from keras.layers import Convolution2D, MaxPooling2D$/;"	kind:namespace	line:9
+Model	catch_usb_test.py	/^from face_train_use_keras import Model$/;"	kind:namespace	line:6
+Model	face_train_use_keras.py	/^class Model:$/;"	kind:class	line:88
+SGD	face_train_use_keras.py	/^from keras.optimizers import SGD$/;"	kind:namespace	line:10
+Sequential	face_train_use_keras.py	/^from keras.models import Sequential$/;"	kind:namespace	line:7
+__init__	face_train_use_keras.py	/^    def __init__(self):$/;"	kind:member	line:89
+__init__	face_train_use_keras.py	/^    def __init__(self, path_name):$/;"	kind:member	line:18
+build_model	face_train_use_keras.py	/^    def build_model(self, dataset, nb_classes = 2):$/;"	kind:member	line:93
+cap	catch_usb_test.py	/^    cap = cv2.VideoCapture(int(sys.argv[1]))$/;"	kind:variable	line:21
+cascade	catch_usb_test.py	/^        cascade = cv2.CascadeClassifier(cascade_path)                $/;"	kind:variable	line:34
+cascade_path	catch_usb_test.py	/^    cascade_path = "\/usr\/local\/share\/OpenCV\/haarcascades\/haarcascade_frontalface_alt2.xml"    $/;"	kind:variable	line:24
+catch_usb_face.py	catch_usb_face.py	1;"	kind:file	line:1
+catch_usb_img.py	catch_usb_img.py	1;"	kind:file	line:1
+catch_usb_test.py	catch_usb_test.py	1;"	kind:file	line:1
+catch_usb_video.py	catch_usb_video.py	1;"	kind:file	line:1
+color	catch_usb_test.py	/^    color = (0, 255, 0)$/;"	kind:variable	line:18
+cv2	catch_usb_face.py	/^import cv2$/;"	kind:namespace	line:3
+cv2	catch_usb_img.py	/^import cv2$/;"	kind:namespace	line:3
+cv2	catch_usb_test.py	/^import cv2$/;"	kind:namespace	line:3
+cv2	catch_usb_video.py	/^import cv2$/;"	kind:namespace	line:3
+cv2	load_face_dataset.py	/^import cv2$/;"	kind:namespace	line:6
+dataset	face_train_use_keras.py	/^    dataset = Dataset('.\/data\/')    $/;"	kind:variable	line:128
+faceID	catch_usb_test.py	/^                faceID = model.face_predict(image)   $/;"	kind:variable	line:44
+faceRects	catch_usb_test.py	/^        faceRects = cascade.detectMultiScale(frame_gray, scaleFactor = 1.2, minNeighbors = 3, minSize = (32, 32))        $/;"	kind:variable	line:37
+face_predict	catch_usb_test.py	/^    def face_predict(self, image):    $/;"	kind:function	line:74
+face_train_use_keras.py	face_train_use_keras.py	1;"	kind:file	line:1
+frame_gray	catch_usb_test.py	/^        frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)$/;"	kind:variable	line:31
+gc	catch_usb_test.py	/^import gc$/;"	kind:namespace	line:5
+image	catch_usb_test.py	/^                image = frame[y - 10: y + h + 10, x - 10: x + w + 10]$/;"	kind:variable	line:43
+images	load_face_dataset.py	/^images = []$/;"	kind:variable	line:42
+k	catch_usb_test.py	/^        k = cv2.waitKey(10)$/;"	kind:variable	line:63
+labels	load_face_dataset.py	/^labels = []$/;"	kind:variable	line:43
+load	face_train_use_keras.py	/^    def load(self, img_rows = IMAGE_SIZE, img_cols = IMAGE_SIZE, $/;"	kind:member	line:38
+load_dataset	face_train_use_keras.py	/^from load_face_dataset import load_dataset, resize_image, IMAGE_SIZE$/;"	kind:namespace	line:15
+load_dataset	load_face_dataset.py	/^def load_dataset(path_name):$/;"	kind:function	line:66
+load_face_dataset.py	load_face_dataset.py	1;"	kind:file	line:1
+load_model	face_train_use_keras.py	/^from keras.models import load_model$/;"	kind:namespace	line:12
+model	catch_usb_test.py	/^    model = Model()$/;"	kind:variable	line:14
+model	face_train_use_keras.py	/^    model = Model()$/;"	kind:variable	line:131
+np	face_train_use_keras.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	load_face_dataset.py	/^import numpy as np$/;"	kind:namespace	line:5
+np_utils	face_train_use_keras.py	/^from keras.utils import np_utils$/;"	kind:namespace	line:11
+os	load_face_dataset.py	/^import os$/;"	kind:namespace	line:3
+random	face_train_use_keras.py	/^import random$/;"	kind:namespace	line:2
+read_path	load_face_dataset.py	/^def read_path(path_name):    $/;"	kind:function	line:44
+resize_image	face_train_use_keras.py	/^from load_face_dataset import load_dataset, resize_image, IMAGE_SIZE$/;"	kind:namespace	line:15
+resize_image	load_face_dataset.py	/^def resize_image(image, height = IMAGE_SIZE, width = IMAGE_SIZE):$/;"	kind:function	line:11
+sys	catch_usb_face.py	/^import sys$/;"	kind:namespace	line:4
+sys	catch_usb_img.py	/^import sys$/;"	kind:namespace	line:4
+sys	catch_usb_test.py	/^import sys$/;"	kind:namespace	line:4
+sys	catch_usb_video.py	/^import sys$/;"	kind:namespace	line:4
+sys	load_face_dataset.py	/^import sys$/;"	kind:namespace	line:4
+train_test_split	face_train_use_keras.py	/^from sklearn.cross_validation import train_test_split$/;"	kind:namespace	line:5
